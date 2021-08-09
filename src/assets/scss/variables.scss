@@ -1,0 +1,28 @@
+$pallete: (
+  info: #6554C0,
+  success: #36B37E,
+  warning: #FFAB00,
+  danger: #FF000A,
+  white: #FFF,
+  white-dark: #F5F5F5,
+  gray: #6B778C,
+  yellow-dark: #DB7304
+);
+
+$colors: (
+  primary: map_get($pallete, red),
+  secondary: hsl(184, 93%, 36%),
+  default: hsl(218, 33%, 95%),
+  dark: map_get($pallete, black),
+  light: hsl(192, 15%, 94%),
+  white: hsl(0, 0%, 100%),
+  black: hsl(0, 0%, 0%),
+  transparent: transparent
+);
+
+$fonts: (
+  roboto: ("Roboto", sans-serif),
+  source: ("Source Sans Pro", sans-serif),
+);
+
+$fontSizes: 8, 10, 12, 14, 16, 18, 20, 24, 26, 28, 32, 36, 38, 44;
