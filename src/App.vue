@@ -7,7 +7,7 @@
       <v-container class="mb-6">
         <v-row justify="space-around" no-gutters>
           <v-col class="py-8" cols="12">
-            <h1 class="display-2 font-weight-bold mb-3 text-center">Le/Tip</h1>
+            <h1 class="display-2 font-weight-bold mb-3 text-center">My Tip</h1>
           </v-col>
           <v-col v-if="!next" cols="12" xl="3" lg="4" md="4" sm="5" xs="12">
             <Calculator
